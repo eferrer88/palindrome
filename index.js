@@ -1,3 +1,4 @@
+module.exports = Phrase;
 
 String.prototype.reverse = function() {
     return Array.from(this).reverse().join("");
@@ -11,7 +12,10 @@ function Phrase(content) {
     }
 
     this.processedContent = function processedContent() {
-        return this.processor(this.content);
+        return this.letters().toLowerCase();
+    }
+    this.letters = function letters() {
+        return (this.content.match(/[a-z]/gi) || []).join("");
     }
     this.palindrome = function palindrome() {
         return this.processedContent() === this.processedContent().reverse();

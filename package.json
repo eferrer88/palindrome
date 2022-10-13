@@ -1,0 +1,22 @@
+{
+  "name": "juaferre-palindrome",
+  "version": "0.1.0",
+  "description": "Palindrome detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eferrer88/palindrome.git"
+  },
+  "keywords": [
+    "palindrome"
+  ],
+  "author": "Juan Ferrer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eferrer88/palindrome/issues"
+  },
+  "homepage": "https://github.com/eferrer88/palindrome#readme"
+}
